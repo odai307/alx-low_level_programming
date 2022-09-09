@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main : print the string in the put function
+ *main - prints sized of characters
  *
  * Description : using the main function
- * Return : return a value of zero
+ * Return :Always 0 (success)
  */
 int main(void)
 {
