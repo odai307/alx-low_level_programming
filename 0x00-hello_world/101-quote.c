@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include<unistd.h>
 /*
- * main: prints exactly "and that piece of art is usefil" 
- * Dora Korpar, 2015-10-19
+ * main: prints exactly 
+ * Dora Korpar
  * followed by a new line, to the standard error
  * Return: It should always be zero
  */
