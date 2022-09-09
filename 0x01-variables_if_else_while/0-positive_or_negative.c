@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n = 10;
+	int n = 98;
 	if( n > 0) {
 	printf("%d is positive\n", n);
 } else if ( n ==0) {
