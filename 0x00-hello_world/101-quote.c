@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<unistd.h>
 /**
- * main:prints exactly and that piece of art is useful
+ * main:prints exactly 
  * followed by a new line to the standard error
  * Return: Always 0 (success)
  */
