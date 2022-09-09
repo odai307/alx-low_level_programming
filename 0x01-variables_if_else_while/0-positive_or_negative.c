@@ -2,8 +2,8 @@
 #include<time.h>
 #include<stdlib.h>
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
+/* main - checks if positive negative or zero */
 int main(void)
 {
 	int n;
@@ -19,5 +19,5 @@ srand(time(0));
 {
 	printf("%d is negative\n", n);
 } 
-return (0);
-}
+ return (0);
+uui}
