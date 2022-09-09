@@ -4,7 +4,7 @@
  *main - prints sized of characters
  *
  * Description : using the main function
- * Return :Always 0 (success)
+ *Return: 0
  */
 int main(void)
 {
