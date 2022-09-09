@@ -1,9 +1,9 @@
 #include <stdio.h>
-\**
+/**
 *main - every code point
 *
 * Return - should always be zero
-* \
+*/
 int main(void)
 {
 	printf("size of an int:%zu byte(s) \n", sizeof(int));
