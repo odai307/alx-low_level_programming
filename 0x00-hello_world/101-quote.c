@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include<unistd.h>
-/*
- * main: prints exactly 
- * Dora Korpar
- * followed by a new line, to the standard error
- * Return: It should always be zero
+/**
+ * main:prints exactly and that piece of art is useful
+ * followed by a new line to the standard error
+ * Return: Always 0 (success)
  */
 int main(void)
 {
