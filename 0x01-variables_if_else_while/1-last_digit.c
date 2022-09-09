@@ -6,6 +6,7 @@
 int main(void)
 {
 	int n;
+	n = rand();
 	
 	/* your code goes there */
 	if ( n > 0) {
