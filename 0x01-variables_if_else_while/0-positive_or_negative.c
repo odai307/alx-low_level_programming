@@ -20,4 +20,5 @@ srand(time(0));
 	printf("%d is negative\n", n);
 } 
  return (0);
-uui}
+ }
+
