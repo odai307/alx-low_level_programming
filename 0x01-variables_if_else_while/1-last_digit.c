@@ -2,9 +2,9 @@
 #include <time.h>
 #include<stdlib.h>
 /**
- * main: should always be 0
+ * mainn - checls last digit
  *
- * return: 0
+ * return: zero
  */
 int main(void)
 {
