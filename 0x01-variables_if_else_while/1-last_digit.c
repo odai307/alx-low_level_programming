@@ -2,7 +2,7 @@
 #include <time.h>
 #include<stdlib.h>
 /**
- * main - checks last digit
+ * main: should always be 0
  *
  * return: 0
  */
@@ -10,7 +10,7 @@ int main(void)
 {
 	int n;
 	int l;
-	srand(time(0));
+srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	l = n % 10;
 	if (l > 5)
