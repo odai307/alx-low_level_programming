@@ -2,7 +2,7 @@
 #include <time.h>
 #include<stdlib.h>
 /**
- * mainn - checls last digit
+ * main - checls last digit
  *
  * Return: zero
  */
