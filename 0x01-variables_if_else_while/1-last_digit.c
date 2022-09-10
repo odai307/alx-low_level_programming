@@ -4,7 +4,7 @@
 /**
  * mainn - checls last digit
  *
- * return: zero
+ * Return: zero
  */
 int main(void)
 {
