@@ -10,7 +10,7 @@ int main(void)
 	char ALP;
 for (alp = 'a'; alp <= 'z'; alp++)
 	putchar(alp);
-for (ALP = 'A'; alp <= 'Z'; ALP++)
+for (ALP = 'A'; ALP <= 'Z'; ALP++)
 	putchar(ALP);
 putchar('\n');
 return (0);
