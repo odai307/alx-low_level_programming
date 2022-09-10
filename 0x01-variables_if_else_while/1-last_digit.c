@@ -4,7 +4,7 @@
 /**
  * main - checks last digit
  *
- * return: always zero
+ * return: 0
  */
 int main(void)
 {
