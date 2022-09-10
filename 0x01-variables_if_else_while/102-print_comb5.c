@@ -29,19 +29,18 @@ while (h < 58)
 					putchar(e);
 					putchar(i);
 					if (h == 57 && g == 56 && e == 57 && i ==57)
-					{
 						break;
 						putchar(',');
 						putchar(' ');
-					}
-					i++
 				}
-				e++;
+				i++
 			}
-			g++
+			e++
 		}
-		h++
+		g++
 	}
-	putchar('\n');
-	return (0);
+	h++
+}
+putchar('\n');
+return (0);
 }
