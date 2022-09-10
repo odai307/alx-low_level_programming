@@ -2,7 +2,7 @@
 /**
  * main - prints numbers betwee 012 to 789
  *
- * Return : Always 0
+ * Return: Always 0
  */
 int main(void)
 {
