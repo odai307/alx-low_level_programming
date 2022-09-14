@@ -6,13 +6,13 @@
  */
 void print_alphabet(void)
 {
-	int n;
+	char n;
 
 	for (n = 97; n <= 122; n++)
 	{
-		putchar(n);
+		_putchar(n);
 	}
 	
-	putchar('\n');
+	_putchar('\n');
 
 }
