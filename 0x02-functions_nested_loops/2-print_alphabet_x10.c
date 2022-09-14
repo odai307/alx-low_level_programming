@@ -1,24 +1,19 @@
 #include <stdio.h>
 /**
- * main - check the code
+ * print_alphabetx10 - function to print abc 10 times
  *
  * Return: Always 0
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	int print_alphabet_x10(int n);
-	int n;
-	int m = 0;
-
-	for ( n = 97; n < 123; n++)
+	char n;
+	char m;
+	for ( n = 0; n < 9; n++)
 	{
-		while (m < 10)
+		for (m = 97; m < 123; m++)
 		{
-			m++;
+			_putchar(m);
 		}
-		putchar(n);
-		}
+		_putchar('\n');
 	}
-	putchar('\n');
-	return (0);
 }
