@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int_isalpha - checks alphabetic character
+ * _isalpha - checks alphabetic character
  *@c: is the int that will use for the argument of the function
  * Return: o
  */
