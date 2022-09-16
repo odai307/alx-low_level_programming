@@ -10,8 +10,8 @@ int main(void)
 
 	printf("Infinite loop is coming :(\n");
 
-	i = 0;
 	/**
+	 * int i = 0;
 	 * while (i < 10)
 	 * {
 	 * putchar(i);
