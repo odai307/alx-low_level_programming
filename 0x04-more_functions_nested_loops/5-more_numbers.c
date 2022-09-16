@@ -6,14 +6,18 @@
  */
 void more_numbers(void)
 {
-	char times;
-	int numbers;
-	numbers = 0;
+	int n1, n2;
 
-	for (times = 48; times <= 57; times++)
+	for (n1 = 0; n1 < 10; n1++)
 	{
-		_putchar('\n');
-		while (numbers <= 14)
+		for (n2 = 0; n2 < 15; n2++)
 		{
-			_putchar(numbers);
-
+			if (n2 > 9)
+			{
+				_putchar((n2 / 10) + '0');
+			}
+			_putchar((n2 % 10) + '0');
+		}
+		_putchar(10);
+	}
+}
