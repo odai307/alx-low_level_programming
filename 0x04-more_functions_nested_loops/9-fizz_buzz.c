@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int num = 1;
+	int num = 0;
 
 	while (num++ < 100)
 	{
@@ -23,7 +23,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%d", num);
+			printf("%d ", num);
 		}
 	}
 	return (0);
