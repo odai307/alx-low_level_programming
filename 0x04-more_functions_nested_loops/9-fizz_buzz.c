@@ -7,7 +7,7 @@ int main(void)
 {
 	int num = 0;
 
-	while (num++ < 100)
+	while (num <= 100)
 	{
 		if (num % 3 == 0 && num % 5 == 0)
 		{
@@ -23,9 +23,16 @@ int main(void)
 		}
 		else
 		{
-			printf("%d ", num);
+			if (num == 100)
+			{
+				printf("%d", num);
+			}
+			else
+			{
+				printf("%d ", num);
+			}
 		}
-	}
 	putchar('\n');
 	return (0);
+	}
 }
