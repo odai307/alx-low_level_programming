@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_to_98 - prints all natural numbers fro input to 98
  * @n: The number to begin counting at 
@@ -6,10 +8,24 @@
  */
 void print_to_98(int n)
 {
-	while (n < 98)
+	int i;
+
+	if (n < 98)
 	{
-		_putchar(n);
-		_putchar(',');
-		_putchar(' ');
+		for (i = n; i < 98; i++)
+		{
+			putchar('n');
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	else
+	{
+		for (i = n; i >= 98; i--)
+		{
+			putchar('n');
+			putchar(',');
+			putchar(' ');
+		}
 	}
 }

@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
+/*
+ * main - function to print sum from 0 to 1024
+ * which are multiples of 3 and 5
+ */
+
 int main(void)
 {
 	int sum, i;
