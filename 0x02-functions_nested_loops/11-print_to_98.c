@@ -19,7 +19,7 @@ void print_to_98(int n)
 			{
 				printf(", ");
 			}
-			i++;
+			n++;
 		}
 	}
 	else
@@ -31,7 +31,7 @@ void print_to_98(int n)
 			{
 				printf(", ");
 			}
-			i--;
+			n--;
 		}
 	}
 	putchar('\n');
