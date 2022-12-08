@@ -11,7 +11,8 @@
  * @next: points to next node
  */
 
-typedef struct dlistint_s {
+typedef struct dlistint_s
+{
 	struct dlistint_s *prev;
 	int n;
 	struct dlistint_s *next;
